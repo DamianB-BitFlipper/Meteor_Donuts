@@ -1,0 +1,202 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'react',
+1 verbose cli   'react-addons-pure-render-mixin' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 warn package.json chain-function@1.0.0 No README data
+5 warn package.json react-transition-group@1.2.0 No README data
+6 warn package.json react-addons-create-fragment@15.6.0 No description
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'react@^15.6.1', null ]
+9 verbose cache add name=undefined spec="react@^15.6.1" args=["react@^15.6.1",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'react@^15.6.1',
+10 verbose parsed url   path: 'react@^15.6.1',
+10 verbose parsed url   href: 'react@^15.6.1' }
+11 verbose cache add name="react" spec="^15.6.1" args=["react","^15.6.1"]
+12 verbose parsed url { protocol: null,
+12 verbose parsed url   slashes: null,
+12 verbose parsed url   auth: null,
+12 verbose parsed url   host: null,
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: null,
+12 verbose parsed url   hash: null,
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: '^15.6.1',
+12 verbose parsed url   path: '^15.6.1',
+12 verbose parsed url   href: '^15.6.1' }
+13 verbose addNamed [ 'react', '^15.6.1' ]
+14 verbose addNamed [ null, '>=15.6.1-0 <16.0.0-0' ]
+15 verbose cache add [ 'react-addons-pure-render-mixin@^15.6.0', null ]
+16 verbose cache add name=undefined spec="react-addons-pure-render-mixin@^15.6.0" args=["react-addons-pure-render-mixin@^15.6.0",null]
+17 verbose parsed url { protocol: null,
+17 verbose parsed url   slashes: null,
+17 verbose parsed url   auth: null,
+17 verbose parsed url   host: null,
+17 verbose parsed url   port: null,
+17 verbose parsed url   hostname: null,
+17 verbose parsed url   hash: null,
+17 verbose parsed url   search: null,
+17 verbose parsed url   query: null,
+17 verbose parsed url   pathname: 'react-addons-pure-render-mixin@^15.6.0',
+17 verbose parsed url   path: 'react-addons-pure-render-mixin@^15.6.0',
+17 verbose parsed url   href: 'react-addons-pure-render-mixin@^15.6.0' }
+18 verbose cache add name="react-addons-pure-render-mixin" spec="^15.6.0" args=["react-addons-pure-render-mixin","^15.6.0"]
+19 verbose parsed url { protocol: null,
+19 verbose parsed url   slashes: null,
+19 verbose parsed url   auth: null,
+19 verbose parsed url   host: null,
+19 verbose parsed url   port: null,
+19 verbose parsed url   hostname: null,
+19 verbose parsed url   hash: null,
+19 verbose parsed url   search: null,
+19 verbose parsed url   query: null,
+19 verbose parsed url   pathname: '^15.6.0',
+19 verbose parsed url   path: '^15.6.0',
+19 verbose parsed url   href: '^15.6.0' }
+20 verbose addNamed [ 'react-addons-pure-render-mixin', '^15.6.0' ]
+21 verbose addNamed [ null, '>=15.6.0-0 <16.0.0-0' ]
+22 silly lockFile fbebe5c9-react-15-6-1 react@^15.6.1
+23 verbose lock react@^15.6.1 /home/damian/.npm/fbebe5c9-react-15-6-1.lock
+24 silly lockFile 0e421839--addons-pure-render-mixin-15-6-0 react-addons-pure-render-mixin@^15.6.0
+25 verbose lock react-addons-pure-render-mixin@^15.6.0 /home/damian/.npm/0e421839--addons-pure-render-mixin-15-6-0.lock
+26 silly addNameRange { name: 'react', range: '>=15.6.1-0 <16.0.0-0', hasData: false }
+27 silly addNameRange { name: 'react-addons-pure-render-mixin',
+27 silly addNameRange   range: '>=15.6.0-0 <16.0.0-0',
+27 silly addNameRange   hasData: false }
+28 verbose url raw react
+29 verbose url resolving [ 'https://registry.npmjs.org/', './react' ]
+30 verbose url resolved https://registry.npmjs.org/react
+31 info trying registry request attempt 1 at 12:15:25
+32 http GET https://registry.npmjs.org/react
+33 verbose url raw react-addons-pure-render-mixin
+34 verbose url resolving [ 'https://registry.npmjs.org/',
+34 verbose url resolving   './react-addons-pure-render-mixin' ]
+35 verbose url resolved https://registry.npmjs.org/react-addons-pure-render-mixin
+36 info trying registry request attempt 1 at 12:15:25
+37 http GET https://registry.npmjs.org/react-addons-pure-render-mixin
+38 http 200 https://registry.npmjs.org/react-addons-pure-render-mixin
+39 silly registry.get cb [ 200,
+39 silly registry.get   { server: 'nginx/1.10.1',
+39 silly registry.get     'content-type': 'application/json',
+39 silly registry.get     'last-modified': 'Sun, 02 Jul 2017 17:07:16 GMT',
+39 silly registry.get     etag: '"59592844-16dcb"',
+39 silly registry.get     'cache-control': 'max-age=300',
+39 silly registry.get     'content-length': '93643',
+39 silly registry.get     'accept-ranges': 'bytes',
+39 silly registry.get     date: 'Wed, 05 Jul 2017 09:15:28 GMT',
+39 silly registry.get     via: '1.1 varnish',
+39 silly registry.get     age: '0',
+39 silly registry.get     connection: 'keep-alive',
+39 silly registry.get     'x-served-by': 'cache-yyz8334-YYZ',
+39 silly registry.get     'x-cache': 'MISS',
+39 silly registry.get     'x-cache-hits': '0',
+39 silly registry.get     'x-timer': 'S1499246128.654208,VS0,VE457',
+39 silly registry.get     vary: 'Accept-Encoding' } ]
+40 silly addNameRange number 2 { name: 'react-addons-pure-render-mixin',
+40 silly addNameRange   range: '>=15.6.0-0 <16.0.0-0',
+40 silly addNameRange   hasData: true }
+41 silly addNameRange versions [ 'react-addons-pure-render-mixin',
+41 silly addNameRange   [ '0.14.0-beta1',
+41 silly addNameRange     '0.14.0-beta2',
+41 silly addNameRange     '0.14.0-beta3',
+41 silly addNameRange     '0.14.0-rc1',
+41 silly addNameRange     '0.14.0',
+41 silly addNameRange     '0.14.1',
+41 silly addNameRange     '0.14.2',
+41 silly addNameRange     '0.14.3',
+41 silly addNameRange     '0.14.4',
+41 silly addNameRange     '0.14.5',
+41 silly addNameRange     '0.14.6',
+41 silly addNameRange     '0.15.0-alpha.1',
+41 silly addNameRange     '0.14.7',
+41 silly addNameRange     '15.0.0-rc.1',
+41 silly addNameRange     '15.0.0-rc.2',
+41 silly addNameRange     '0.14.8',
+41 silly addNameRange     '15.0.0',
+41 silly addNameRange     '15.0.1',
+41 silly addNameRange     '15.0.2-alpha.1',
+41 silly addNameRange     '15.0.2-alpha.2',
+41 silly addNameRange     '15.0.2-alpha.3',
+41 silly addNameRange     '15.0.2-alpha.4',
+41 silly addNameRange     '15.0.2',
+41 silly addNameRange     '15.0.3-alpha.1',
+41 silly addNameRange     '15.0.3-alpha.2',
+41 silly addNameRange     '15.1.0-alpha.1',
+41 silly addNameRange     '15.1.0',
+41 silly addNameRange     '15.2.0-rc.1',
+41 silly addNameRange     '15.2.0-rc.2',
+41 silly addNameRange     '15.2.0',
+41 silly addNameRange     '15.2.1',
+41 silly addNameRange     '15.3.0-rc.1',
+41 silly addNameRange     '15.3.0-rc.2',
+41 silly addNameRange     '15.3.0-rc.3',
+41 silly addNameRange     '15.3.0',
+41 silly addNameRange     '15.3.1-rc.1',
+41 silly addNameRange     '15.3.1-rc.2',
+41 silly addNameRange     '15.3.1',
+41 silly addNameRange     '15.3.2-rc.1',
+41 silly addNameRange     '15.3.2',
+41 silly addNameRange     '15.4.0-rc.1',
+41 silly addNameRange     '15.4.0-rc.2',
+41 silly addNameRange     '15.4.0-rc.3',
+41 silly addNameRange     '15.4.0-rc.4',
+41 silly addNameRange     '15.4.0',
+41 silly addNameRange     '15.4.1',
+41 silly addNameRange     '15.4.2',
+41 silly addNameRange     '16.0.0-alpha',
+41 silly addNameRange     '16.0.0-alpha.0',
+41 silly addNameRange     '16.0.0-alpha.2',
+41 silly addNameRange     '16.0.0-alpha.3',
+41 silly addNameRange     '15.5.0-alpha.0',
+41 silly addNameRange     '15.5.0',
+41 silly addNameRange     '15.5.0-rc.1',
+41 silly addNameRange     '15.5.0-rc.2',
+41 silly addNameRange     '15.5.1',
+41 silly addNameRange     '15.5.2',
+41 silly addNameRange     '15.6.0-rc.1',
+41 silly addNameRange     '15.6.0-rc.0',
+41 silly addNameRange     '15.6.0' ] ]
+42 verbose addNamed [ 'react-addons-pure-render-mixin', '15.6.0' ]
+43 verbose addNamed [ '15.6.0', '15.6.0' ]
+44 silly lockFile d78dc580--addons-pure-render-mixin-15-6-0 react-addons-pure-render-mixin@15.6.0
+45 verbose lock react-addons-pure-render-mixin@15.6.0 /home/damian/.npm/d78dc580--addons-pure-render-mixin-15-6-0.lock
+46 silly lockFile dca2b632-ons-pure-render-mixin-15-6-0-tgz https://registry.npmjs.org/react-addons-pure-render-mixin/-/react-addons-pure-render-mixin-15.6.0.tgz
+47 verbose lock https://registry.npmjs.org/react-addons-pure-render-mixin/-/react-addons-pure-render-mixin-15.6.0.tgz /home/damian/.npm/dca2b632-ons-pure-render-mixin-15-6-0-tgz.lock
+48 verbose addRemoteTarball [ 'https://registry.npmjs.org/react-addons-pure-render-mixin/-/react-addons-pure-render-mixin-15.6.0.tgz',
+48 verbose addRemoteTarball   '84ba028630cdf89239d16f1bb4d98fe865651813' ]
+49 silly lockFile dca2b632-ons-pure-render-mixin-15-6-0-tgz https://registry.npmjs.org/react-addons-pure-render-mixin/-/react-addons-pure-render-mixin-15.6.0.tgz
+50 silly lockFile dca2b632-ons-pure-render-mixin-15-6-0-tgz https://registry.npmjs.org/react-addons-pure-render-mixin/-/react-addons-pure-render-mixin-15.6.0.tgz
+51 silly lockFile d78dc580--addons-pure-render-mixin-15-6-0 react-addons-pure-render-mixin@15.6.0
+52 silly lockFile d78dc580--addons-pure-render-mixin-15-6-0 react-addons-pure-render-mixin@15.6.0
+53 silly lockFile 0e421839--addons-pure-render-mixin-15-6-0 react-addons-pure-render-mixin@^15.6.0
+54 silly lockFile 0e421839--addons-pure-render-mixin-15-6-0 react-addons-pure-render-mixin@^15.6.0
+55 error Error: EACCES, mkdir '/home/damian/tmp/npm-32305-dUT-PGgo'
+55 error  { [Error: EACCES, mkdir '/home/damian/tmp/npm-32305-dUT-PGgo']
+55 error   errno: 3,
+55 error   code: 'EACCES',
+55 error   path: '/home/damian/tmp/npm-32305-dUT-PGgo' }
+56 error Please try running this command again as root/Administrator.
+57 error System Linux 3.13.0-36-generic
+58 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "--save" "react" "react-addons-pure-render-mixin"
+59 error cwd /home/damian/bin/JS_files/donuts
+60 error node -v v0.10.25
+61 error npm -v 1.3.10
+62 error path /home/damian/tmp/npm-32305-dUT-PGgo
+63 error code EACCES
+64 error errno 3
+65 error stack Error: EACCES, mkdir '/home/damian/tmp/npm-32305-dUT-PGgo'
+66 verbose exit [ 3, true ]

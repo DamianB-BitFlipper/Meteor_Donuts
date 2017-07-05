@@ -28,3 +28,6 @@ kadira:react-layout
 twbs:bootstrap
 accounts-password
 std:accounts-ui
+
+#react-addons-transition-group
+#react-router
