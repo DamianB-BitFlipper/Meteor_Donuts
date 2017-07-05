@@ -9,7 +9,6 @@ import Homepage from './views/Homepage.jsx'
 import { Accounts } from 'meteor/std:accounts-ui';
 
 
-
 FlowRouter.route('/', {
   name: 'home',
   action: function() {
@@ -46,6 +45,15 @@ FlowRouter.route('/Loginpage', {
   }
 });
 
+FlowRouter.route('/logout', {
+  name: 'logout',
+  action: function() {
+    Meteor.logout(function(){
+      FlowRouter.go('home');
+      sAlert.info("You've been signed out.", {effect: 'stackslide', position: 'top-left', timeout: 2000,});
+    });
+  }
+});
 
 
 FlowRouter.notFound = {

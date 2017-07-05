@@ -21,7 +21,13 @@ class Home extends Component {
           </div>;
   }
   showUserNav_login() {
-      return <h1> Welcome {currentUser.username} </h1>;
+
+      return <div>
+              <h1> Welcome {currentUser.username} </h1>
+              <form action="/logout" method="get">
+              <button className="link">logout</button>
+              </form>
+              </div>;
   }
                   
 
