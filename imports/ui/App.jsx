@@ -23,12 +23,11 @@ class App extends Component {
                 <DonutsCartContainer/>
 
             </div>
-        );
-        }
-        else{
+            );
+        }else{
             return <div className="app-container">
-                Loading...
-            </div>
+                    Loading...
+                </div>
         }
     }
 }

@@ -27,7 +27,6 @@ class Home extends Component {
 
   render() {
     currentUser = Meteor.user();
-    console.log(currentUser);
 
     return(
       <div className="Top">
@@ -41,8 +40,15 @@ class Home extends Component {
 
 
 export default createContainer(() => {
+
+    //Database collections are published on the server-side, but need to be 
+    // subscribed on the client-side in order to be able to be accessed
     let subscription = Meteor.subscribe("userData");
     let sub = subscription.ready();
+
+    Meteor.subscribe("donuts");
+    Meteor.subscribe("donuts_menu");
+
     return { sub: sub };
 }, Home);
 

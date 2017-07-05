@@ -66,5 +66,5 @@ class DonutsMenu extends Component {
 
 //Enables reactivity on database data changes
 export default DonutsMenuContainer = createContainer(() => {
-  return { donuts_menu: dbDonutsMenu.find({}).fetch() };
+    return { donuts_menu: dbDonutsMenu.find({}).fetch() };
 }, DonutsMenu);
